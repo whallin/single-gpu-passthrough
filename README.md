@@ -11,17 +11,28 @@
 
 <!-- ABOUT -->
 ## single-gpu-passthrough
-single-gpu-passthrough is a guide written to explain the process behind, well, doing single GPU passthrough to a VM on Linux. This guide goes into detail
+single-gpu-passthrough is a guide written to explain the process behind how I've done my single GPU passthrough to my Windows 10 virtual machine in Manjaro. This guide goes step-by-step on how the setup went for me and how you can recreate something similar or exact for your system.
 
 <!-- WARNING -->
-## ⚠️ Proceed with caution
+## Proceed with caution
+Each system is unique, and therefore, you should be careful when proceeding with this guide. Make sure to read things carefully and see where there might be a unique step you have to take to get the right outcome. Take a backup using [Timeshift](https://github.com/teejee2008/timeshift) (or your preferred backup software) before doing any modifications and tweaks to the system files. 
 
 <!-- INTRO -->
-## 👋 Introduction
+## Let's get started
+To make this guide/tutorial easier for you, the end-user, to follow and navigate, I've decided to utilize the "Wiki" feature avilable to all GitHub repositorys to build this entire guide. 
+
+You can find the Wiki here: https://github.com/whallin/single-gpu-passthrough/wiki
 
 <!-- CREDITS -->
-## 💡 Credits
+## Credits
+I'd like to thank the following guides and people for helping me build and write this entire guide.
+
+### joeknock90
+For writing the original single GPU passthrough guide I followed to build a structure for myself.
+
+### Arch Wiki
+For providing me with detailed information and further steps regarding multiple things.
 
 <!-- LICENSE -->
-## ⚖️ License
+## License
 whallin/single-gpu-passthrough is licensed under the ``GPL-3.0`` license. Read more about it's meaning and effects [here](https://github.com/whallin/single-gpu-passthrough/blob/main/LICENSE).
