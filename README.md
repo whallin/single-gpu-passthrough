@@ -41,6 +41,9 @@ For making the instruction on manually editing the vBIOS hex code for proper VFI
 ### [Arch Wiki](https://wiki.archlinux.org/)
 For providing me with detailed information and further steps regarding multiple things.
 
+### [SomeOrdinaryGamers](https://www.youtube.com/user/SomeOrdinaryGamers)
+For making me explore the VFIO scene and making me end up writing this guide.
+
 <!-- LICENSE -->
 ## License
 whallin/single-gpu-passthrough is licensed under the ``GPL-3.0`` license. Read more about it's meaning and effects [here](https://github.com/whallin/single-gpu-passthrough/blob/main/LICENSE).
