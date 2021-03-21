@@ -13,7 +13,7 @@
 ## single-gpu-passthrough
 single-gpu-passthrough is a guide written to explain the process behind how I've done my single GPU passthrough to my Windows 10 virtual machine in Manjaro. This guide goes step-by-step on how the setup went for me and how you can recreate something similar or exact for your system.
 
-We'll go through steps that will let you play games such as Valorant and ROBLOX without having to worry about the procedues they take to block their player base that's trying to run their software on virtual machines.
+We'll go through steps that will let you play games such as Valorant and ROBLOX without having to worry about the procedures they take to block their player base that's trying to run their software on virtual machines.
 
 <!-- WARNING -->
 ## Proceed with caution
