@@ -22,10 +22,10 @@ sudo echo efi-framebuffer.0 > /sys/bus/platform/drivers/efi-framebuffer/unbind
 
 # Avoid race condition
 # Increase this number to give the script more time to process
-# Use 7-10 seconds for better stability. Higher value = better stability
+# Use 7-10 seconds for best stability during boot. Higher value = better stability
 sleep 3
 
-# Unload Nvidia
+# Unload NVIDIA
 sudo modprobe -r nvidia_drm
 sudo modprobe -r nvidia_modeset
 sudo modprobe -r drm_kms_helper
@@ -34,7 +34,8 @@ sudo modprobe -r i2c_nvidia_gpu
 sudo modprobe -r drm
 sudo modprobe -r nvidia_uvm
 
-# unbind gpu
+# Unbind GPU
+# If you added anything else to your kvm.conf file, go ahead and add it here.
 sudo virsh nodedev-detach $VIRSH_GPU_VIDEO
 sudo virsh nodedev-detach $VIRSH_GPU_AUDIO
 
