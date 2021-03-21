@@ -29,10 +29,16 @@ You can find the Wiki here: https://github.com/whallin/single-gpu-passthrough/wi
 ## Credits
 I'd like to thank the following guides and people for helping me build and write this entire guide.
 
-### joeknock90
+### [joeknock90](https://github.com/joeknock90)
 For writing the original single GPU passthrough guide I followed to build a structure for myself.
 
-### Arch Wiki
+### [The Passthrough POST](https://passthroughpo.st/)
+For providing plenty of information on VFIO passthrough and for the libvirt/QEMU hook helper mentioned in this guide.
+
+### droidman
+For making the instruction on manually editing the vBIOS hex code for proper VFIO passthrough. 
+
+### [Arch Wiki](https://wiki.archlinux.org/)
 For providing me with detailed information and further steps regarding multiple things.
 
 <!-- LICENSE -->
