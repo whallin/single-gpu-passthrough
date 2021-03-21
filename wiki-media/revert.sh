@@ -10,6 +10,9 @@ sudo modprobe -r vfio_iommu_type1
 sudo modprobe -r vfio
 
 # Rebind GPU
+
+# If you added anything else to your kvm.conf file, go ahead and add it here.
+
 sudo virsh nodedev-reattach $VIRSH_GPU_VIDEO
 sudo virsh nodedev-reattach $VIRSH_GPU_AUDIO
 
@@ -18,13 +21,13 @@ sudo virsh nodedev-reattach $VIRSH_GPU_AUDIO
 sudo echo 1 > /sys/class/vtconsole/vtcon0/bind
 #sudo echo 1 > /sys/class/vtconsole/vtcon1/bind
 
-# Read Nvidia xconfig
+# Read NVIDIA xconfig
 sudo nvidia-xconfig --query-gpu-info > /dev/null 2>&1
 
 # Bind EFI-framebuffer
 sudo echo "efi-framebuffer.0" > /sys/bus/platform/drivers/efi-framebuffer/bind
 
-# Load Nvidia
+# Load NVIDIA
 sudo modprobe nvidia_drm
 sudo modprobe nvidia_modeset
 sudo modprobe drm_kms_helper
