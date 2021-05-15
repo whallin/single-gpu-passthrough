@@ -9,15 +9,15 @@
   <img src="https://badges.pufler.dev/visits/whallin/single-gpu-passthrough?style=for-the-badge">
 </p>
 
-<!-- ATTENTION -->
-## ‼️ Update: May 15th, 2021
-As of today, I [(William)](https://github.com/whallin) will no longer be maintaining this guide. If you wish to improve on this guide or keep it updated, feel free to send in your pull requests, and I'll make sure to approve them. I will sadly not be available to provide support for anyone having issues following this guide—that's since I don't deem myself knowledgeable enough with the topic anymore to provide quality assistance.
-
 <!-- ABOUT -->
-## ⌚️ single-gpu-passthrough
+# ⌚️ single-gpu-passthrough
 single-gpu-passthrough is a guide written to explain the process behind how I've done my single GPU pass-through to my Windows 10 virtual machine in Manjaro. This guide goes step-by-step on how the setup went for me and how you can recreate something similar or exact for your system.
 
 We'll go through steps that will let you play games such as Valorant and ROBLOX without having to worry about the procedures they take to block their player base that's trying to run their software on virtual machines.
+
+<!-- ATTENTION -->
+## ‼️ Update: May 15th, 2021
+As of today, I [(William)](https://github.com/whallin) will no longer be maintaining this guide. If you wish to improve on this guide or keep it updated, feel free to send in your pull requests, and I'll make sure to approve them. I will sadly not be available to provide support for anyone having issues following this guide—that's since I don't deem myself knowledgeable enough with the topic anymore to provide quality assistance.
 
 <!-- WARNING -->
 ## ⚠️ Proceed with caution
