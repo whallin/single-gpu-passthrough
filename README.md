@@ -30,7 +30,7 @@ To make this guide/tutorial easier for you, the end-user, to follow and navigate
 You can find the Wiki here: https://github.com/whallin/single-gpu-passthrough/wiki
 
 <!-- CREDITS -->
-## 🤝 Credits
+## ❤️ Credits
 I'd like to thank the following guides and people for helping me build and write this entire guide.
 
 ### [joeknock90](https://github.com/joeknock90)
@@ -47,6 +47,10 @@ For providing me with detailed information and further steps regarding multiple 
 
 ### [SomeOrdinaryGamers](https://www.youtube.com/user/SomeOrdinaryGamers)
 For making me explore the VFIO scene and making me end up writing this guide.
+
+<!-- CONTRIBUTORS -->
+## 🤝 Contributors
+<a href="https://github.com/whallin/linux-dedi-setup/graphs/contributors"><img src="https://contrib.rocks/image?repo=whallin/linux-dedi-setup"></a>
 
 <!-- LICENSE -->
 ## ⚖️ License
