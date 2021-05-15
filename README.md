@@ -50,7 +50,7 @@ For making me explore the VFIO scene and making me end up writing this guide.
 
 <!-- CONTRIBUTORS -->
 ## 🤝 Contributors
-<a href="https://github.com/whallin/linux-dedi-setup/graphs/contributors"><img src="https://contrib.rocks/image?repo=whallin/linux-dedi-setup"></a>
+<a href="https://github.com/whallin/single-gpu-passthrough/graphs/contributors"><img src="https://contrib.rocks/image?repo=whallin/single-gpu-passthrough"></a>
 
 <!-- LICENSE -->
 ## ⚖️ License
