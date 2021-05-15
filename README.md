@@ -50,5 +50,6 @@ For making me explore the VFIO scene and making me end up writing this guide.
 
 <!-- LICENSE -->
 ## ⚖️ License
-Copyright © 2021 [William Hallin Multimedia <me@williamhallin.com> (https://williamhallin.com)](https://williamhallin.com)
+Copyright © 2021 [William Hallin Multimedia &lt;me@williamhallin.com&gt; (https://www.williamhallin.com)](https://www.williamhallin.com)
+
 whallin/single-gpu-passthrough is licensed under the ``GPL-3.0`` license. Read more about it's meaning and effects [here](https://github.com/whallin/single-gpu-passthrough/blob/main/LICENSE).
